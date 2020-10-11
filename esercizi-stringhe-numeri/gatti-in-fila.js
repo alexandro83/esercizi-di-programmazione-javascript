@@ -17,3 +17,12 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var cats = 44;
+var inLine = 6;
+
+var numLines = Math.ceil(cats / inLine);
+var missingCats = (numLines * inLine) - cats;
+
+console.log("Numero di file: " + numLines);
+console.log("Gatti mancanti: " + missingCats);

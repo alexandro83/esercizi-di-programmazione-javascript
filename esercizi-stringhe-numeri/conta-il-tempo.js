@@ -12,3 +12,10 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var totalSeconds = 12560;
+var hours = Math.round(totalSeconds / 3600);
+var minutes = Math.round((totalSeconds % 3600) / 60);
+var seconds = (totalSeconds % 3600) % 60;
+
+console.log(hours + "h " + minutes + "m " + seconds + "s ");

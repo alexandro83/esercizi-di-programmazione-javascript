@@ -11,3 +11,12 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var currentYear = 2020;
+var birthYear = 1983;
+
+var age = currentYear - birthYear;
+var missingYear = 100 - age;
+
+console.log("Età: " + age);
+console.log("Anni Mancanti: " + missingYear);
